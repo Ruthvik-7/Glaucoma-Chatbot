@@ -54,7 +54,7 @@ This Glaucoma Chatbot answers glaucoma-related questions by using two different 
     The BioBERT model will be downloaded automatically when you run the code, as it's specified by the Hugging Face model ID `dmis-lab/biobert-base-cased-v1.1`.
 
 5. **Download the BioWordVec model**:
-    Place the BioWordVec model file [`bio_embedding_intrinsic`] (https://figshare.com/articles/dataset/Improving_Biomedical_Word_Embeddings_with_Subword_Information_and_MeSH_Ontology/6882647) in the same folder as your project files. Ensure it’s in the correct format (binary).
+    Place the BioWordVec model file [`bio_embedding_intrinsic`](https://figshare.com/articles/dataset/Improving_Biomedical_Word_Embeddings_with_Subword_Information_and_MeSH_Ontology/6882647) in the same folder as your project files. Ensure it’s in the correct format (binary).
 
 6. **Dataset**:
     Ensure you have the file `Combined_Dataset.xlsx` containing the Q&A data in the project directory. This dataset should have columns named exactly as `Question` and `Answer`.
